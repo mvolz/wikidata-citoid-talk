@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Wikidata + Citoid = <3</title>
+		<meta name="description" content="Talk about integrating Wikidata with citoid">
+		<meta name="author" content="Marielle Volz">
+
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/sky.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '/reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Wikidata + Citoid = <3</h1>
+				</section>
+				<section>
+					<h1>Challenges</h1>
+				</section>
+				<section>
+					<h1>Flat reference</h1>
+					<img src="img/Flat.png">
+				</section>
+				<section>
+					<section>
+						<h1>Two layers</h1>
+						<h2>Reference</h2>
+						<img src="img/Semi-flat.png">
+					</section>
+
+					<section>
+						<h1>Two layers</h1>
+						<h2>Book</h2>
+						<img src="img/Book.png">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Three layers</h1>
+						<h2>Reference</h2>
+						<img src="img/Reference.png">
+					</section>
+					<section>
+						<h1>Three layers</h1>
+						<h2>Chapter</h2>
+						<img src="img/Chapter.png">
+					</section>
+					<section>
+						<h1>Three layers</h1>
+						<h2>Reference</h2>
+						<img src="img/Book.png">
+					</section>
+				</section>
+				<section>
+					<h1>Gadgets</h1>
+				</section>
+					
+			</div>
+		</div>
+
+		<script src="reveal/lib/js/head.min.js"></script>
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'reveal/plugin/markdown/marked.js' },
+					{ src: 'reveal/plugin/markdown/markdown.js' },
+					{ src: 'reveal/plugin/notes/notes.js', async: true },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
