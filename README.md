@@ -5,7 +5,9 @@ A talk by Marielle Volz
 
 ## Usage
 
-You can serve the talk locally by cloning the repo and navigating to index.html in your browser.
+This talk is available online at https://mvolz.github.io/wikidata-citoid-talk/index.html
+
+You can also serve the talk locally by cloning the repo and navigating to index.html in your browser.
 
 Navigate the talk by using the down and right arrow keys.
 

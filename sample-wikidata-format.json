@@ -1,0 +1,54 @@
+[
+  {
+    "url": "https://link.springer.com/chapter/10.1007/978-3-7908-2628-9_7",
+    "itemType": "bookSection",
+    "place": "Heidelberg",
+    "publisher": "Physica-Verlag HD", 
+    "pages": "97–111",
+    "title": "On Implementation of the Markov Chain Monte Carlo Stochastic Approximation Algorithm",
+    "containers": [
+      [{"itemType": "book",
+        "title": "Advances in Directional and Linear Statistics",
+        "publisher": "Physica-Verlag",
+        "place": "Berlin",
+        "ISBN": [ "9783790826272", "9783790826289"],
+        "date": "2011",
+        "contributors": [[
+          "Wells, Martin (Martin", "T.)"],
+          ["Sengupta," "Ashis."
+        ]],
+        "abstractNote": "The present volume consists of papers written by students, colleagues and collaborators of Sreenivasa Rao Jammalamadaka from various countries, and covers a variety of research topics which he enjoys and contributed immensely to",
+        "sources": [{
+          "title":"WorldCat",
+          "QID":"Q846596"
+        }]
+      }],
+      [{"itemType": "webpage",
+        "url": "https://link.springer.com/",
+        "title": "SpringerLink",
+        "QID": "Q58333349",
+        "abstractNote": "Providing researchers with access to millions of scientific documents from journals, books, series, protocols and reference works.",
+        "source": [{
+          "url":"https://link.springer.com/",
+          "title":"SpringerLink",
+          "QID": "Q58333349",
+          "via":"citoid"
+        }]
+      }]
+    ],
+    "date": "2010-09-27",
+    "language": "en",
+    "abstractNote": "The Markov Chain Monte Carlo Stochastic Approximation Algorithm (MCMCSAA) was developed to compute estimates of parameters with incomplete data. In theory this algorithm guarantees convergence to the...",
+    "accessDate": "2018-10-09",
+    "authors": [
+      ["Yihua", "Jiang"],
+      ["Peter", "Karcher"],
+      ["Yuedong", "Wang"]
+    ],
+    "DOI": "10.1007/978-3-7908-2628-9_7",
+    "sources": [{
+      "title": "Crossref",
+      "QID": "Q5188229"
+    }]
+  }
+]

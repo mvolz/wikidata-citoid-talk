@@ -30,7 +30,57 @@
 					<h1>Wikidata + Citoid = <3</h1>
 				</section>
 				<section>
+					<h1>What is citoid?</h1>
+					<ul>
+						<li>Restful API/webscraper that returns metadata given an identifier (typically URL).</li>
+						<li>Optimised towards traditional citation styles (MLA, APA, Chicago).</li>
+						<li>Suitable for citation templates on Wikipedias with few alterations.</li>
+						<li>Everything is strings!</li>
+					</ul>
+				</section>
+				<section>
+					<h1>
+						Sample request
+					</h1>
+					<a href="https://en.wikipedia.org/api/rest_v1/data/citation/mediawiki/https%3A%2F%2Flink.springer.com%2Fchapter%2F10.1007%2F978-3-7908-2628-9_7">
+					https://en.wikipedia.org/api/rest_v1/data/citation/mediawiki/https%3A%2F%2Flink.springer.com%2Fchapter%2F10.1007%2F978-3-7908-2628-9_7
+					</a>
+					<pre><code>
+[
+  {
+    "url": "https://link.springer.com/chapter/10.1007/978-3-7908-2628-9_7",
+    "itemType": "bookSection",
+    "place": "Heidelberg",
+    "publisher": "Physica-Verlag HD", 
+    "pages": "97–111",
+    "title": "On Implementation of the Markov Chain Monte Carlo Stochastic Approximation Algorithm",
+    "bookTitle": "Advances in Directional and Linear Statistics",
+    "date": "2010-09-27",
+    "ISBN": [ "9783790826272", "9783790826289"],
+    "language": "en",
+    "abstractNote": "The Markov Chain Monte Carlo Stochastic Approximation Algorithm (MCMCSAA) was developed to compute estimates of parameters with incomplete data. In theory this algorithm guarantees convergence to the...",
+    "accessDate": "2018-10-09",
+    "author": [
+      ["Yihua", "Jiang"],
+      ["Peter", "Karcher"],
+      ["Yuedong", "Wang"]
+    ],
+    "DOI": "10.1007/978-3-7908-2628-9_7",
+    "source": [ "Crossref", "citoid"]
+  }
+]
+					</code></pre>
+				</section>
+				<section>
 					<h1>Challenges</h1>
+					<ul>
+						<li>How nested the reference is depends on item type.</li>
+						<li>De-duplication depends on item type.</li>
+						<li>When is the source the website itself rather than object it's about?</li>
+					</ul>
+				</section>
+				<section>
+					<h1>Nested references</h1>
 				</section>
 				<section>
 					<h1>Flat reference</h1>
@@ -69,6 +119,12 @@
 				</section>
 				<section>
 					<h1>Gadgets</h1>
+				</section>
+				<section>
+					<h1>Katie Filbert's "autofill" tool</h1>
+				</section>
+				<section>
+					<h1>Mvolz "Stated in" tool</h1>
 				</section>
 					
 			</div>
