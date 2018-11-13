@@ -23,7 +23,7 @@ body {
 
 .reveal {
   font-family: "Open Sans", sans-serif;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: normal;
   color: #333; }
 
@@ -62,13 +62,13 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2.11em; }
+  font-size: 3.11em; }
 
 .reveal h2 {
-  font-size: 1.55em; }
+  font-size: 2.55em; }
 
 .reveal h3 {
-  font-size: 1.2em; }
+  font-size: 1.7em; }
 
 .reveal h4 {
   font-size: 1em; }
@@ -236,9 +236,9 @@ body {
  *********************************************/
 .reveal section img {
   margin: 15px 0px;
-  background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #333;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+  background: none;
+  border: none;
+  box-shadow: none; }
 
 .reveal section img.plain {
   border: 0;
