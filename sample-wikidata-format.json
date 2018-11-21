@@ -12,7 +12,12 @@
         "publisher": "Physica-Verlag",
         "place": "Berlin",
         "ISBN": [ "9783790826272", "9783790826289"],
-        "date": "2011",
+        "date": {
+          "time": "+00000002011-00-00T00:00:00Z",
+          "precision": 9,
+          "before": 0,
+          "after": 0
+        },
         "contributors": [[
           "Wells, Martin (Martin", "T.)"],
           ["Sengupta," "Ashis."
@@ -28,7 +33,7 @@
         "title": "SpringerLink",
         "QID": "Q58333349",
         "abstractNote": "Providing researchers with access to millions of scientific documents from journals, books, series, protocols and reference works.",
-        "source": [{
+        "sources": [{
           "url":"https://link.springer.com/",
           "title":"SpringerLink",
           "QID": "Q58333349",
@@ -37,7 +42,14 @@
       }]
     ],
     "date": "2010-09-27",
-    "language": "en",
+          "date": {
+          "time": "+00000002010-09-27T00:00:00Z",
+          "precision": 11,
+          "before": 0,
+          "after": 0
+        },
+    "languageCode": "en",
+    "languageQID": "Q1860",
     "abstractNote": "The Markov Chain Monte Carlo Stochastic Approximation Algorithm (MCMCSAA) was developed to compute estimates of parameters with incomplete data. In theory this algorithm guarantees convergence to the...",
     "accessDate": "2018-10-09",
     "authors": [

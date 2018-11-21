@@ -129,38 +129,54 @@
 				</section>
 
 				<section>
+					<h1>Gadgets</h1>
+				</section>
+				<section>
 					<section>
-						<h1>Four layers???</h1>
-						<h2>Reference</h2>
-						<img src="img/">
+						<h1>Katie Filbert's "autofill" tool</h1>
+						<p>
+						Original tool: <a href="https://github.com/filbertkm/wikidata-citetool/">https://github.com/filbertkm/wikidata-citetool/</a>
+					</p>
+					<p>
+						Fork with more features: <a href="https://github.com/mvolz/wikidata-citoid-gadget">https://github.com/mvolz/wikidata-citoid-gadget</a>
+					</p>
+						To enable, add this to your common.js:
+	<pre><code>
+	mw.loader.using(['wikibase'], function() {
+		$.getScript( 'https://www.wikidata.org/w/index.php?title=User:Mvolz_(WMF)/CiteTool.js&action=raw&ctype=text/javascript', function() {
+			var citeTool = new wb.CiteTool( 'https://www.wikidata.org/w/index.php?title=User:Mvolz_(WMF)/CiteProperties.json&action=raw&ctype=application/json' );
+			citeTool.init();
+		});
+	});				
+	</code></pre>
+						<ul>
+							<li>Flat / two layer references</li>
+							<li>Does not create new items.</li>
+						</ul>
 					</section>
 					<section>
-						<h1>Four layers???</h1>
-						<h2>Reference item</h2>
-						<img src="img/">
-					</section>
-					<section>
-						<h1>Four layers</h1>
-						<h2>Chapter</h2>
-						<img src="img/Chapter.png">
-					</section>
-					<section>
-						<h1>Four layers</h1>
-						<h2>Book</h2>
-						<img src="img/Book.png">
+					<h1>DEMO</h1>
+					<p>
+						<a href="https://www.wikidata.org/wiki/Q7189431">wikidata.org</a>
+					</p>
+					<p>
+						<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002947">https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002947</a>
+					</p>
 					</section>
 				</section>
 
 				<section>
-					<h1>Gadgets</h1>
-				</section>
-				<section>
-					<h1>Katie Filbert's "autofill" tool</h1>
-				</section>
-				<section>
 					<h1>Mvolz "Stated in" tool</h1>
 				</section>
-					
+
+				<section>
+					<h1>TODO:</h1>
+				</section>
+				<section>
+					<h1>Design wikibase / wikidata format for citoid</h1>
+					phab: <a href="https://phabricator.wikimedia.org/T208213">T208213</a>
+				</section>
+
 			</div>
 		</div>
 
