@@ -46,7 +46,8 @@
 				<section>
 					<h1>What is <a href="https://mediawiki.org/wiki/citoid">citoid?</a></h1>
 					<ul>
-						<li>Restful API/webscraper that returns metadata given an identifier (typically URL).</li>
+						<li>Restful API/webscraper that returns metadata given an identifier (typically URL, can do QID, full citation, PMID etc).</li>
+						<li>Publically available at <a href="https://en.wikipedia.org/api/rest_v1/#!/Citation/getCitation">https://en.wikipedia.org/api/rest_v1/#!/Citation/getCitation</a>
 						<li>Optimised towards traditional citation styles (MLA, APA, Chicago).</li>
 						<li>Currently used to generate citation templates on some Wikipedias.</li>
 						<li>Returns JSON: all values are strings</li>
@@ -85,6 +86,10 @@
   }
 ]
 					</code></pre>
+				</section>
+				<section>
+					<h1>Knowledge Integrity: Citing sources on wikidata</h1>
+					<a href="https://meta.wikimedia.org/wiki/Knowledge_Integrity">https://meta.wikimedia.org/wiki/Knowledge_Integrity</a>
 				</section>
 				<section>
 					<h1>Challenges</h1>
@@ -180,15 +185,19 @@
 				</section>
 
 				<section>
-					<h1>Mvolz "Stated in" tool</h1>
+					<h1>Please visit this RFC!</h1>
+					<a href="https://www.wikidata.org/wiki/Wikidata:Requests_for_comment/Referencing_websites:_how_do_we_store_the_website_title%3F">
+						Referencing websites: How do we store the website title? 
+					</a>
 				</section>
 
 				<section>
 					<h1>TODO:</h1>
 				</section>
 				<section>
-					<h1>Design wikibase / wikidata format for citoid</h1>
+					<h3>Design wikibase / wikidata format for citoid</h3>
 					phab: <a href="https://phabricator.wikimedia.org/T208213">T208213</a>
+					<h3>Create ability for users to create new items as needed for references easily.</h3>
 				</section>
 
 			</div>
